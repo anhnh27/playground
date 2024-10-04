@@ -1,0 +1,18 @@
+import Image from "next/image";
+import { FC } from "react";
+
+const Flag: FC = () => {
+  return (
+    <div className="flex flex-row items-center gap-6">
+      <Image
+        width={36}
+        height={36}
+        alt="flag"
+        src="data:image/png;base64,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"
+      />
+      {`Region === 'UK'`}
+    </div>
+  );
+};
+
+export default Flag;

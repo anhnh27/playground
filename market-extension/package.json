@@ -1,0 +1,39 @@
+{
+  "name": "market-extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:au": "NEXT_PUBLIC_REGION=au next dev",
+    "dev:uk": "NEXT_PUBLIC_REGION=uk next dev",
+    "dev:nz": "NEXT_PUBLIC_REGION=nz next dev",
+    "dev:my": "NEXT_PUBLIC_REGION=my next dev",
+    "build:au": "NEXT_PUBLIC_REGION=au next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "i18next": "^23.14.0",
+    "i18next-chained-backend": "^4.6.2",
+    "i18next-http-backend": "^2.6.1",
+    "i18next-resources-to-backend": "^1.2.1",
+    "next": "14.2.7",
+    "next-i18n-router": "^5.5.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-i18next": "^15.0.1"
+  },
+  "devDependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "i18nexus-cli": "^3.5.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
